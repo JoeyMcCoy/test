@@ -1,0 +1,110 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<!-- jQuery  -->
+<script src="jquery.js"></script>
+<!-- Minified Bootstrap script -->
+<script src="boot.js"></script>	
+</head>
+
+<body>
+
+    <h1>Portfolio</h1>
+    <p id="prova">Click the thumbs to display the lightbox</p>
+<div class="container">
+	<div class="row">
+		                                <div class="col-lg-12">
+                                    <!-- Nav tabs --><div class="card">
+                                    <ul class="nav nav-tabs" role="tablist">
+                                        <li role="presentation" class="active"><a href="index.html" aria-controls="home">Portfolio</a></li>
+                                        <li role="presentation"><a href="resume.html" aria-controls="resume">Resume</a></li>
+                                        <li role="presentation"><a href="cover_letter.html" aria-controls="cover_letter" r>Cover Letter</a></li>
+                                        <li role="presentation"><a href="contact.html" aria-controls="contact">Contact Information</a></li>
+                                    </ul>
+
+                                    <!-- Tab panes -->
+                                    <div class="tab-content">
+                                        <div role="tabpanel" class="tab-pane active" id="home"></div>
+                                        <div role="tabpanel" class="tab-pane" id="resume"></div>
+                                        <div role="tabpanel" class="tab-pane" id="cover_letter"></div>
+                                        <div role="tabpanel" class="tab-pane" id="contact"></div>
+                                    </div>
+</div>
+                                </div>
+	</div>
+</div>
+	<br>
+    <!-- each image should have a different id - #img1, #img2, #img3, etc.-->
+	<a href="#img1">
+        <img class="thumb" src="pic1.jpg">
+    </a>
+    <!-- lightbox container hidden with CSS -->
+    <div class="lightbox" id="img1">
+        <!-- insert previous image id here --><a href="#img1">
+          <span class="glyphicon glyphicon-menu-left"></span>
+        </a>
+            <a href="#_" class="btn-close">X</a>
+    <!-- insert large image source here --> <img src="pic1.jpg">
+    <!-- insert next image id here --><a href="#img2"> 
+			<span class="glyphicon glyphicon-menu-right"></span>
+        </a>
+    </div>
+	<a href="#img2">
+        <img class="thumb" src="pic2.jpg">
+    </a>
+    <!-- lightbox container hidden with CSS -->
+    <div class="lightbox" id="img2">
+        <a href="#img1">
+          <span class="glyphicon glyphicon-menu-left"></span>
+        </a>
+            <a href="#_" class="btn-close">X</a>
+            <img src="pic2.jpg">
+        <a href="#img1"> 
+			<span class="glyphicon glyphicon-menu-right"></span>
+        </a>
+    </div>
+	
+	
+    <a href="#img1">
+        <img class="thumb" src="pic1.jpg">
+    </a>
+    <!-- lightbox container hidden with CSS -->
+    <div class="lightbox" id="img1">
+        <a href="#img1">
+          <span class="glyphicon glyphicon-menu-left"></span>
+        </a>
+            <a href="#_" class="btn-close">X</a>
+            <img src="images/velo1.jpg">
+        <a href="#img1"> 
+			<span class="glyphicon glyphicon-menu-right"></span>
+        </a>
+    </div>
+	<a href="#img1">
+        <img class="thumb" src="pic1.jpg">
+    </a>
+    <!-- lightbox container hidden with CSS -->
+    <div class="lightbox" id="img1">
+        <a href="#img1">
+          <span class="glyphicon glyphicon-menu-left"></span>
+        </a>
+            <a href="#_" class="btn-close">X</a>
+            <img src="images/velo1.jpg">
+        <a href="#img1"> 
+			<span class="glyphicon glyphicon-menu-right"></span>
+        </a>
+    </div>
+
+    
+
+    
+
+    <p class="footer">Placeholder Text</p>
+</body>
