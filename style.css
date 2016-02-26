@@ -34,7 +34,9 @@ color: white;
 .glyphicon-menu-right {
 font-size: 50px;
 text-decoration: none;
-color: white; 
+color: white;
+
+
 }
 .glyphicon:hover {
 color: #4682B4;
