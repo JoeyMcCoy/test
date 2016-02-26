@@ -18,6 +18,7 @@ p {
     margin-bottom: 45px;
 }
 
+
 .footer { 
     margin-top: 80px;
 }
@@ -45,14 +46,15 @@ color: #4682B4;
 /* ------------------------------------------------------------------------------*/
 .thumb {
     max-height: 171px;
-    border: solid 4px rgba(5, 5, 5, 0.8);
+    border: solid 2px rgba(0, 0, 0, 0);
+	border-radius: 10%;
 }
 .thumb:hover {
     
 	opacity: 1;
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
-	border: solid 4px #00688B;
+	border: solid 2px black;
 	opacity: .75;
 }
 
