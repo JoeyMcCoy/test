@@ -74,6 +74,7 @@ color: #4682B4;
     max-width: 90%;
     max-height: 80%;
     margin-top: 2%;
+	border-radius: 10px;
     opacity: 0;
 }
 
